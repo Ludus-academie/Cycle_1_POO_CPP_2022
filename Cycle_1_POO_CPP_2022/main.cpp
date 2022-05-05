@@ -25,7 +25,14 @@ int main() {
 	//Type classe objet
 	CVecteur cVect;
 
-	cVect.initVect(8, 3, 9);
+	cVect.setX(5);
+	cVect.setY(2);
+	cVect.setZ(0);
+
+
+	printf_s("X:%d", cVect.getX());
+	printf_s("Y:%d", cVect.getY());
+	printf_s("Z:%d", cVect.getZ());
 
 
 

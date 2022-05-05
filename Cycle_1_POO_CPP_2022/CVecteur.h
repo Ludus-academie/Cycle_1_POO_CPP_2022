@@ -17,7 +17,24 @@ public :
 
 
 	//fonctions membres
-	void initVect(int nX, int nY, int nZ);
+	
+	//Un constructeur
+	CVecteur();
+
+
+	//Set
+
+	void setX(const int nX); //ici const ne peut pas modifier l'argument
+	void setY(const int nY);
+	void setZ(const int nZ);
+
+	//Get
+	int getX()const; //ici const n'a pas le droit de modifier la donnee membre
+	int getY()const;
+	int getZ()const;
+
+
+
 
 
 };
