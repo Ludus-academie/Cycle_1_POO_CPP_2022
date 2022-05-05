@@ -21,9 +21,15 @@
     <ClCompile Include="TVect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CVecteur.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TVect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CVecteur.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

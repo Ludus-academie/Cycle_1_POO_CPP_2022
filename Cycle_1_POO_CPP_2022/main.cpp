@@ -4,6 +4,7 @@
 
 #include<stdio.h>
 #include"TVect.h"
+#include "CVecteur.h"
 
 
 
@@ -12,6 +13,7 @@ int main() {
 	
 	printf_s("Introduction POO C++\n");
 
+	//Type Structure
 	vecteur tvect;
 
 	tvect.n_x = 0;
@@ -19,6 +21,13 @@ int main() {
 	tvect.n_z = 0;
 
 	initVecteur(&tvect, 5, 2, 9);
+
+	//Type classe objet
+	CVecteur cVect;
+
+	cVect.initVect(8, 3, 9);
+
+
 
 
 
