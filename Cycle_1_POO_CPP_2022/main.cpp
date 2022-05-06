@@ -12,6 +12,13 @@
 //const int TAILLE = 255;
 
 
+void incI();
+
+static int fct(int n_val);
+
+
+
+
 int main() {
 
 	
@@ -45,10 +52,34 @@ int main() {
 	printf_s("Z:%d", cVect.getZ());
 
 
+	
+	//Variable static
+	incI();
+	incI();
+	incI();
 
+
+	fct(5);
 
 
 
 	return 0;
+}
+
+
+//Static
+
+void incI() {
+
+	//variable static
+	static int n_i = 0;
+	n_i = n_i + 1;
+	printf_s("%d\n", n_i);
+}
+
+
+static int fct(int n_val) {
+
+	return n_val;
 }
 
