@@ -11,6 +11,7 @@ private :
 	int m_nX;
 	int m_nY;
 	int m_nZ;
+ 
 
 
 public :
@@ -20,6 +21,8 @@ public :
 	
 	//Un constructeur
 	CVecteur();
+
+	CVecteur(int nX, int nY=10, int nZ=10);
 
 
 	//Set
